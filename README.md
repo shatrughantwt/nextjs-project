@@ -93,10 +93,4 @@ Contributions are welcome! Please open issues or submit pull requests for improv
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## Author
-
-- [Shatrughan Tiwari](https://github.com/shatrughantwt)
-
----
-
 > Built with ❤️ using Next.js, React, and Tailwind CSS.
