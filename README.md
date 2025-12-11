@@ -64,6 +64,8 @@ next/
 ├── next.config.ts
 ├── postcss.config.mjs
 ├── eslint.config.mjs
+├── Dockerfile
+├── docker-compose.yml
 └── README.md
 ```
 
@@ -91,6 +93,28 @@ next/
 - `npm run start` — Start the production server
 - `npm run lint` — Run ESLint
 
+## Docker
+
+You can run this Next.js app in a container using Docker or Docker Compose.
+
+### Build and Run with Docker
+
+```sh
+# Build the Docker image
+docker build -t nextjs-app .
+
+# Run the container
+docker run -p 3000:3000 nextjs-app
+```
+
+### Using Docker Compose
+
+```sh
+docker-compose up --build
+```
+
+The app will be available at [http://localhost:3000](http://localhost:3000).
+
 ## Contributing
 
 Contributions are welcome! Please open issues or submit pull requests for improvements, bug fixes, or new features.
@@ -98,6 +122,5 @@ Contributions are welcome! Please open issues or submit pull requests for improv
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 
 > Built with ❤️ using Next.js, React, and Tailwind CSS.
